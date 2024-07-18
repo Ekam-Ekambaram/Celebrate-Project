@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    <title>Text Editor</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">New Text</div>
+        <select id="font" style="display: none;">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Calibri">Calibri</option>
+            <option value="Comic Sans MS">Comic Sans MS</option>
+            <option value="Impact">Impact</option>
+            <option value="Lucida Console">Lucida Console</option>
+            <option value="Segoe UI">Segoe UI</option>
+            <option value="Open Sans">Open Sans</option>
+            <option value="Lato">Lato</option>
+            <option value="Montserrat">Montserrat</option>
+            <option value="Merriweather">Merriweather</option>
+            <option value="Playfair Display">Playfair Display</option>
+        </select>
+        <input type="number" id="size" style="display: none;" value="16">
+        <input type="color" id="color" style="display: none;">
+        <input type="text" id="newText" style="display: none;" placeholder="Enter new text">
+        <button id="addText" style="display: none;">Add Text</button>
+        <button id="undo" style="display: block;">Undo</button>
+        <button id="redo" style="display: block;">Redo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
